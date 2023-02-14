@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color-scheme: dark;
+    /* #121212 */
+}
+
+body {
+    background-color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bdc1c6;
+    line-height: 48px;
+    min-height: 100vh;
+    /* display: grid;   */
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10vh;
+    max-height: 10vh;
+    /* background-color: hotpink; */
+    overflow: hidden;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding-inline: 10px;
+    font: 13px/27px Roboto, sans-serif;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.googleapps {
+    border-radius: 50%;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.googleapps:hover {
+    background-color: #393939;
+    transition: background-color 100ms;
+}
+
+ion-icon {
+    vertical-align: middle;
+    font-size: 18px;
+    color: #bdc1c6;
+    padding: 7px 0px;
+}
+
+.logo {
+    height: 50%;
+    border-radius: 50%;
+    width: 2.5%;
+    margin-inline: 12px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.logo:hover {
+    box-shadow: 0px 0px 10px #818181;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container {
+    margin-top: .7rem;
+    max-width: 250px;
+    overflow: hidden;
+}
+
+.logo-container img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.input {
+    position: relative;
+    /* border: 2px solid white; */
+    width: auto;
+    /* max-width: 584px; */
+    margin: 0 auto;
+
+
+}
+
+.user-input {
+    max-width: 33rem;
+    width: 33rem;
+    height: 2.6rem;
+    border-radius: 30px;
+    border: .5px solid #5f6368;
+    background: transparent;
+    padding-inline: 40px;
+}
+
+.user-input:hover,
+.user-input:focus {
+    background-color: rgb(57, 57, 61);
+    border: none;
+    box-shadow: 0px 0px 2px rgb(38, 38, 40);
+    outline: none;
+}
+
+
+.icon,
+.icon2,
+.icon3 {
+    position: absolute;
+}
+
+.icon {
+    top: 0;
+    left: 8px;
+}
+
+.icon2 {
+    top: 0;
+    right: 45px;
+}
+
+.icon3 {
+    top: 0;
+    right: 10px;
+}
+
+.icon ion-icon {
+    font-size: 1rem;
+
+}
+
+.icon2 ion-icon,
+.icon3 ion-icon {
+    font-size: 1.3rem;
+
+}
+
+.btns {
+    margin-top: 15px;
+
+}
+
+.btns button {
+    padding: 9px 15px;
+    background-color: rgba(94, 94, 103, 0.25);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-inline: 3px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.btns button:hover {
+    border: 1px solid rgb(68, 68, 68);
+}
+
+.offered-languages {
+    font-size: 0.7rem;
+}
+
+.offered-languages a {
+    margin-inline: 3px;
+    text-decoration: none;
+    color: #8ab4f8;
+}
+.offered-languages a:hover{
+    text-decoration: underline;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(23, 23, 23);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #3c4043;
+    font-size: 0.8rem;
+}
+.box p{
+    font-size: 0.8rem;
+    margin: 0px 20px;
+}
+.footer-content span,
+.footer-content a{
+    margin: 0px 15px ;
+    color: #bdc1c6;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer-content span:hover,
+.footer-content a:hover{
+    text-decoration: underline;
+}
