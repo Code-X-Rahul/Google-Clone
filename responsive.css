@@ -1,0 +1,70 @@
+@media screen and (max-width: 550px) {
+
+    header,
+    .logo ,
+    .languages{
+        display: flex;
+        align-items: center;
+    }
+
+    header {
+        width: 100vw;
+        justify-content: space-between;
+    }
+
+    .u-hide,
+    .btns {
+        display: none;
+    }
+
+
+    .hamburger,
+    .main,
+    .active {
+        display: block;
+    }
+
+    .logo {
+        height: 100%;
+        width: 7vw;
+    }
+
+    .logo-container {
+        width: 50vw;
+        margin: 0px auto;
+        margin-top: 20px;
+        /* background-color: hotpink; */
+    }
+
+    .input {
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .user-input {
+        width: 100%;
+    }
+
+    .icon {
+        left: 20px;
+    }
+
+    .icon2 {
+        right: 60px;
+    }
+
+    .icon3 {
+        right: 25px;
+    }
+
+    .languages {
+        justify-content: center;
+    }
+
+    .offered-languages,
+    footer,
+    .content {
+        flex-direction: column;
+    }
+
+}
