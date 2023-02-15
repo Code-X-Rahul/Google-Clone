@@ -17,6 +17,8 @@ body {
     color: var(--main-font-color);
     line-height: 48px;
     min-height: 100vh;
+    box-sizing: inherit;
+    position: relative;
 }
 
 img {
